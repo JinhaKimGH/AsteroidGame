@@ -70,7 +70,7 @@ first_entry = True
 def connect(string):
     cnx = mysql.connector.connect(
         user='root',
-        password='jinha0704',
+        password='PASSWORD',
         database='asteroidhighscore')
     mycursor = cnx.cursor()
 
